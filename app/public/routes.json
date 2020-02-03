@@ -1,0 +1,32 @@
+{
+    "routes" : [
+        {
+            "route" : "/dummy/",
+            "serve" : "/dummy2.txt",
+            "statusCode" : 404
+        },
+        {
+            "route" : "/admin/",
+            "serve" : "/admin/",
+            "allowedRoles" : ["admin"],
+            "statusCode" : 200
+        },
+        {
+            "route" : "/authenticated/",
+            "serve" : "/authenticated/",
+            "allowedRoles" : ["authenticated"],
+            "statusCode" : 200
+        },
+        {
+            "route" : "/about/*",
+            "serve": "/about/",
+            "statusCode": 200
+        },
+        {
+            "route" : "/*",
+            "serve": "/index.html",
+            "statusCode": 200
+        }
+    ]
+}
+    
