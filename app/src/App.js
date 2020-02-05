@@ -21,7 +21,7 @@ class App extends React.Component {
             path="/"
             render={(renderProps) => (
               <div>
-                Last update made on 1/30/2020 1:27pm
+                Last update made on 2/5/2020 12:40am
                 <Home {...this.props} {...renderProps} />
                 <a href="/.auth/login/facebook">Login and return to this page</a>
                 <a href="/.auth/login/facebook?post_login_redirect_uri=delightful-coast-03068614.staticsitescanary.net/authenticated">Authenticated page</a>
