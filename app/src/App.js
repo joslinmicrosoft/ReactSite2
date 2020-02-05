@@ -23,9 +23,9 @@ class App extends React.Component {
               <div>
                 Last update made on 1/30/2020 1:27pm
                 <Home {...this.props} {...renderProps} />
-                <a href="https://victorious-pebble-09d07414.staticsitescanary.net/.auth/login/facebook">Login and return to this page</a>
-                <a href="https://victorious-pebble-09d07414.staticsitescanary.net/.auth/login/facebook?post_login_redirect_uri=victorious-pebble-09d07414.staticsitescanary.net/authenticated">Authenticated page</a>
-                <a href="https://victorious-pebble-09d07414.staticsitescanary.net/.auth/login/facebook?post_login_redirect_uri=victorious-pebble-09d07414.staticsitescanary.net/admin">Admin page</a>
+                <a href="/.auth/login/facebook">Login and return to this page</a>
+                <a href="/.auth/login/facebook?post_login_redirect_uri=delightful-coast-03068614.staticsitescanary.net/authenticated">Authenticated page</a>
+                <a href="/.auth/login/facebook?post_login_redirect_uri=delightful-coast-03068614.staticsitescanary.net/admin">Admin page</a>
               </div>
             )} />
         </Switch>
