@@ -24,8 +24,8 @@ class App extends React.Component {
                 Last update made on 1/30/2020 1:27pm
                 <Home {...this.props} {...renderProps} />
                 <a href="/.auth/login/facebook">Login and return to this page</a>
-                <a href="/.auth/login/facebook?post_login_redirect_uri=delightful-coast-03068614.staticsitescanary.net/authenticated">Authenticated page</a>
-                <a href="/.auth/login/facebook?post_login_redirect_uri=delightful-coast-03068614.staticsitescanary.net/admin">Admin page</a>
+                <a href="/.auth/login/facebook?post_login_redirect_uri=/authenticated">Authenticated page</a>
+                <a href="/.auth/login/facebook?post_login_redirect_uri=/admin">Admin page</a>
               </div>
             )} />
         </Switch>
